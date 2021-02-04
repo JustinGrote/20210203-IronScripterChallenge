@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="1" errors="0" failures="0" not-run="3" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2021-02-03" time="18:34:58">
+  <environment nunit-version="2.5.8.0" cwd="C:\Users\JGrote\Projects\Sandbox\20210203-IronScripterChallenge\Tests" os-version="10.0.19042" user="JGrote" clr-version="Unknown" user-domain="ALLIEDDIGITAL" machine-name="ADSL-JGROTE" platform="Microsoft Windows 10 Enterprise|C:\WINDOWS|\Device\Harddisk0\Partition3" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="64.887" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="C:\Users\JGrote\Projects\Sandbox\20210203-IronScripterChallenge\Tests\Challenges.Tests.ps1" executed="True" result="Success" success="True" time="64.887" asserts="0" description="C:\Users\JGrote\Projects\Sandbox\20210203-IronScripterChallenge\Tests\Challenges.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Challenges" executed="True" result="Success" success="True" time="64.6401" asserts="0" description="Challenges">
+            <results>
+              <test-suite type="TestFixture" name="Challenges.Challenge3" executed="True" result="Success" success="True" time="64.4963" asserts="0" description="Challenges.Challenge3">
+                <results>
+                  <test-suite type="ParameterizedTest" name="Challenges.Challenge3.Has some of the properties we care about &lt;property&gt;" executed="True" result="Success" success="True" time="64.2953" asserts="0" description="Has some of the properties we care about &lt;property&gt;">
+                    <results>
+                      <test-case description="Has some of the properties we care about Name" name="Challenges.Challenge3.Has some of the properties we care about Name" time="64.2953" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

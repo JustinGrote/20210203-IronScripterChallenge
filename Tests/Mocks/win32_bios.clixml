@@ -1,0 +1,7 @@
+
+   NameSpace: ROOT/CIMV2
+
+CimClassName                        CimClassMethods      CimClassProperties
+------------                        ---------------      ------------------
+Win32_BIOS                          {}                   {Caption, Description, InstallDate, Name…}
+
