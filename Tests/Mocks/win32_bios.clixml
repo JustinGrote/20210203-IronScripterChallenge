@@ -1,7 +1,156 @@
-
-   NameSpace: ROOT/CIMV2
-
-CimClassName                        CimClassMethods      CimClassProperties
-------------                        ---------------      ------------------
-Win32_BIOS                          {}                   {Caption, Description, InstallDate, Name…}
-
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.Management.Infrastructure.CimInstance#root/cimv2/Win32_BIOS</T>
+      <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/CIMV2/CIM_BIOSElement</T>
+      <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/CIMV2/CIM_SoftwareElement</T>
+      <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/CIMV2/CIM_LogicalElement</T>
+      <T>Microsoft.Management.Infrastructure.CimInstance#ROOT/CIMV2/CIM_ManagedSystemElement</T>
+      <T>Microsoft.Management.Infrastructure.CimInstance#Win32_BIOS</T>
+      <T>Microsoft.Management.Infrastructure.CimInstance#CIM_BIOSElement</T>
+      <T>Microsoft.Management.Infrastructure.CimInstance#CIM_SoftwareElement</T>
+      <T>Microsoft.Management.Infrastructure.CimInstance#CIM_LogicalElement</T>
+      <T>Microsoft.Management.Infrastructure.CimInstance#CIM_ManagedSystemElement</T>
+      <T>Microsoft.Management.Infrastructure.CimInstance</T>
+      <T>System.Object</T>
+    </TN>
+    <ToString>Win32_BIOS: F.05 (Name = "F.05", SoftwareElementID = "F.05", SoftwareElementState = 3, TargetOperatingSystem = 0, Version = "HPQOEM - 1072009")</ToString>
+    <Props>
+      <S N="Caption">F.05</S>
+      <S N="Description">F.05</S>
+      <Nil N="InstallDate" />
+      <S N="Name">F.05</S>
+      <S N="Status">OK</S>
+      <Nil N="BuildNumber" />
+      <Nil N="CodeSet" />
+      <Nil N="IdentificationCode" />
+      <Nil N="LanguageEdition" />
+      <S N="Manufacturer">AMI</S>
+      <Nil N="OtherTargetOS" />
+      <S N="SerialNumber">8CG0388XTM</S>
+      <S N="SoftwareElementID">F.05</S>
+      <U16 N="SoftwareElementState">3</U16>
+      <U16 N="TargetOperatingSystem">0</U16>
+      <S N="Version">HPQOEM - 1072009</S>
+      <B N="PrimaryBIOS">true</B>
+      <Obj N="BiosCharacteristics" RefId="1">
+        <TN RefId="1">
+          <T>System.UInt16[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <U16>7</U16>
+          <U16>11</U16>
+          <U16>12</U16>
+          <U16>15</U16>
+          <U16>16</U16>
+          <U16>19</U16>
+          <U16>23</U16>
+          <U16>24</U16>
+          <U16>25</U16>
+          <U16>26</U16>
+          <U16>27</U16>
+          <U16>28</U16>
+          <U16>29</U16>
+          <U16>32</U16>
+          <U16>33</U16>
+          <U16>39</U16>
+          <U16>40</U16>
+          <U16>41</U16>
+          <U16>42</U16>
+          <U16>43</U16>
+        </LST>
+      </Obj>
+      <Obj N="BIOSVersion" RefId="2">
+        <TN RefId="2">
+          <T>System.String[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>HPQOEM - 1072009</S>
+          <S>F.05</S>
+          <S>American Megatrends - 50010</S>
+        </LST>
+      </Obj>
+      <S N="CurrentLanguage">en|US|iso8859-1</S>
+      <By N="EmbeddedControllerMajorVersion">27</By>
+      <By N="EmbeddedControllerMinorVersion">17</By>
+      <U16 N="InstallableLanguages">5</U16>
+      <Obj N="ListOfLanguages" RefId="3">
+        <TNRef RefId="2" />
+        <LST>
+          <S>en|US|iso8859-1</S>
+          <S>fr|FR|iso8859-1</S>
+          <S>es|ES|iso8859-1</S>
+          <S>zh|TW|unicode</S>
+          <S>zh|CN|unicode</S>
+        </LST>
+      </Obj>
+      <DT N="ReleaseDate">2020-07-05T17:00:00-07:00</DT>
+      <S N="SMBIOSBIOSVersion">F.05</S>
+      <U16 N="SMBIOSMajorVersion">3</U16>
+      <U16 N="SMBIOSMinorVersion">2</U16>
+      <B N="SMBIOSPresent">true</B>
+      <By N="SystemBiosMajorVersion">15</By>
+      <By N="SystemBiosMinorVersion">5</By>
+      <Nil N="PSComputerName" />
+    </Props>
+    <MS>
+      <Obj N="__ClassMetadata" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.ArrayList</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <Obj RefId="5">
+            <MS>
+              <S N="ClassName">CIM_ManagedSystemElement</S>
+              <S N="Namespace">ROOT/CIMV2</S>
+              <S N="ServerName">ADSL-JGROTE</S>
+              <I32 N="Hash">-1322602804</I32>
+              <S N="MiXml">&lt;CLASS NAME="CIM_ManagedSystemElement"&gt;&lt;QUALIFIER NAME="Abstract" TYPE="boolean" TOSUBCLASS="false"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Locale" TYPE="sint32"&gt;&lt;VALUE&gt;1033&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="UUID" TYPE="string"&gt;&lt;VALUE&gt;{8502C517-5FBB-11D2-AAC1-006008C78BC7}&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;PROPERTY NAME="Caption" TYPE="string"&gt;&lt;QUALIFIER NAME="MaxLen" TYPE="sint32"&gt;&lt;VALUE&gt;64&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="Description" TYPE="string"&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="InstallDate" TYPE="datetime"&gt;&lt;QUALIFIER NAME="MappingStrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;MIF.DMTF|ComponentID|001.5&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="Name" TYPE="string"&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="Status" TYPE="string"&gt;&lt;QUALIFIER NAME="MaxLen" TYPE="sint32"&gt;&lt;VALUE&gt;10&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ValueMap" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;OK&lt;/VALUE&gt;&lt;VALUE&gt;Error&lt;/VALUE&gt;&lt;VALUE&gt;Degraded&lt;/VALUE&gt;&lt;VALUE&gt;Unknown&lt;/VALUE&gt;&lt;VALUE&gt;Pred Fail&lt;/VALUE&gt;&lt;VALUE&gt;Starting&lt;/VALUE&gt;&lt;VALUE&gt;Stopping&lt;/VALUE&gt;&lt;VALUE&gt;Service&lt;/VALUE&gt;&lt;VALUE&gt;Stressed&lt;/VALUE&gt;&lt;VALUE&gt;NonRecover&lt;/VALUE&gt;&lt;VALUE&gt;No Contact&lt;/VALUE&gt;&lt;VALUE&gt;Lost Comm&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;/CLASS&gt;</S>
+            </MS>
+          </Obj>
+          <Obj RefId="6">
+            <MS>
+              <S N="ClassName">CIM_LogicalElement</S>
+              <S N="Namespace">ROOT/CIMV2</S>
+              <S N="ServerName">ADSL-JGROTE</S>
+              <I32 N="Hash">-1322620468</I32>
+              <S N="MiXml">&lt;CLASS NAME="CIM_LogicalElement" SUPERCLASS="CIM_ManagedSystemElement"&gt;&lt;QUALIFIER NAME="Locale" TYPE="sint32"&gt;&lt;VALUE&gt;1033&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="UUID" TYPE="string"&gt;&lt;VALUE&gt;{8502C518-5FBB-11D2-AAC1-006008C78BC7}&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Abstract" TYPE="boolean" TOSUBCLASS="false"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/CLASS&gt;</S>
+            </MS>
+          </Obj>
+          <Obj RefId="7">
+            <MS>
+              <S N="ClassName">CIM_SoftwareElement</S>
+              <S N="Namespace">ROOT/CIMV2</S>
+              <S N="ServerName">ADSL-JGROTE</S>
+              <I32 N="Hash">-1322599684</I32>
+              <S N="MiXml">&lt;CLASS NAME="CIM_SoftwareElement" SUPERCLASS="CIM_LogicalElement"&gt;&lt;QUALIFIER NAME="Locale" TYPE="sint32"&gt;&lt;VALUE&gt;1033&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="UUID" TYPE="string"&gt;&lt;VALUE&gt;{8502C561-5FBB-11D2-AAC1-006008C78BC7}&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="abstract" TYPE="boolean" TOSUBCLASS="false"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;PROPERTY NAME="Name" TYPE="string"&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="key" TYPE="boolean" OVERRIDABLE="false"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="maxlen" TYPE="sint32"&gt;&lt;VALUE&gt;256&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="override" TYPE="string" TOSUBCLASS="false"&gt;&lt;VALUE&gt;Name&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="BuildNumber" TYPE="string"&gt;&lt;QUALIFIER NAME="Mappingstrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;MIF.DMTF|Software Component Information|002.4&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Maxlen" TYPE="sint32"&gt;&lt;VALUE&gt;64&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="CodeSet" TYPE="string"&gt;&lt;QUALIFIER NAME="Maxlen" TYPE="sint32"&gt;&lt;VALUE&gt;64&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="IdentificationCode" TYPE="string"&gt;&lt;QUALIFIER NAME="Mappingstrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;MIF.DMTF|Software Component Information|002.7&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Maxlen" TYPE="sint32"&gt;&lt;VALUE&gt;64&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="LanguageEdition" TYPE="string"&gt;&lt;QUALIFIER NAME="Mappingstrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;MIF.DMTF|Software Component Information|002.6&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Maxlen" TYPE="sint32"&gt;&lt;VALUE&gt;32&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="Manufacturer" TYPE="string"&gt;&lt;QUALIFIER NAME="Mappingstrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;MIF.DMTF|ComponentID|001.1&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Maxlen" TYPE="sint32"&gt;&lt;VALUE&gt;256&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="OtherTargetOS" TYPE="string"&gt;&lt;QUALIFIER NAME="Maxlen" TYPE="sint32"&gt;&lt;VALUE&gt;64&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ModelCorrespondence" TYPE="string"&gt;&lt;VALUE&gt;CIM_OperatingSystem.OtherTypeDescription&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="SerialNumber" TYPE="string"&gt;&lt;QUALIFIER NAME="Mappingstrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;MIF.DMTF|ComponentID|001.4&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Maxlen" TYPE="sint32"&gt;&lt;VALUE&gt;64&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="SoftwareElementID" TYPE="string"&gt;&lt;QUALIFIER NAME="key" TYPE="boolean" OVERRIDABLE="false"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="maxlen" TYPE="sint32"&gt;&lt;VALUE&gt;256&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="SoftwareElementState" TYPE="uint16"&gt;&lt;QUALIFIER NAME="key" TYPE="boolean" OVERRIDABLE="false"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="TargetOperatingSystem" TYPE="uint16"&gt;&lt;QUALIFIER NAME="key" TYPE="boolean" OVERRIDABLE="false"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Mappingstrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;MIF.DMTF|Software Component Information|002.5&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="ModelCorrespondence" TYPE="string"&gt;&lt;VALUE&gt;CIM_OperatingSystem.OSType&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="Version" TYPE="string"&gt;&lt;QUALIFIER NAME="key" TYPE="boolean" OVERRIDABLE="false"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Mappingstrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;MIF.DMTF|ComponentID|001.3&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Maxlen" TYPE="sint32"&gt;&lt;VALUE&gt;64&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;/CLASS&gt;</S>
+            </MS>
+          </Obj>
+          <Obj RefId="8">
+            <MS>
+              <S N="ClassName">CIM_BIOSElement</S>
+              <S N="Namespace">ROOT/CIMV2</S>
+              <S N="ServerName">ADSL-JGROTE</S>
+              <I32 N="Hash">-1322617348</I32>
+              <S N="MiXml">&lt;CLASS NAME="CIM_BIOSElement" SUPERCLASS="CIM_SoftwareElement"&gt;&lt;QUALIFIER NAME="Locale" TYPE="sint32"&gt;&lt;VALUE&gt;1033&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="UUID" TYPE="string"&gt;&lt;VALUE&gt;{8502C562-5FBB-11D2-AAC1-006008C78BC7}&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="abstract" TYPE="boolean" TOSUBCLASS="false"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;PROPERTY NAME="Manufacturer" TYPE="string"&gt;&lt;QUALIFIER NAME="Mappingstrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;MIF.DMTF|System BIOS|001.2&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Maxlen" TYPE="sint32"&gt;&lt;VALUE&gt;256&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Override" TYPE="string" TOSUBCLASS="false"&gt;&lt;VALUE&gt;Manufacturer&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="Version" TYPE="string"&gt;&lt;QUALIFIER NAME="key" TYPE="boolean" OVERRIDABLE="false"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Mappingstrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;MIF.DMTF|System BIOS|001.3&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Maxlen" TYPE="sint32"&gt;&lt;VALUE&gt;64&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Override" TYPE="string" TOSUBCLASS="false"&gt;&lt;VALUE&gt;Version&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="PrimaryBIOS" TYPE="boolean"&gt;&lt;QUALIFIER NAME="MappingStrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;MIF.DMTF|System BIOS|001.9&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;/CLASS&gt;</S>
+            </MS>
+          </Obj>
+          <Obj RefId="9">
+            <MS>
+              <S N="ClassName">Win32_BIOS</S>
+              <S N="Namespace">root/cimv2</S>
+              <S N="ServerName">ADSL-JGROTE</S>
+              <I32 N="Hash">-1361111156</I32>
+              <S N="MiXml">&lt;CLASS NAME="Win32_BIOS" SUPERCLASS="CIM_BIOSElement"&gt;&lt;QUALIFIER NAME="Locale" TYPE="sint32"&gt;&lt;VALUE&gt;1033&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="UUID" TYPE="string"&gt;&lt;VALUE&gt;{8502C4E1-5FBB-11D2-AAC1-006008C78BC7}&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="dynamic" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="provider" TYPE="string"&gt;&lt;VALUE&gt;CIMWin32&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;PROPERTY NAME="Version" TYPE="string"&gt;&lt;QUALIFIER NAME="key" TYPE="boolean" OVERRIDABLE="false"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Mappingstrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;Win32Registry|HARDWARE\Description\System|SystemBiosVersion&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Maxlen" TYPE="sint32"&gt;&lt;VALUE&gt;64&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="Override" TYPE="string"&gt;&lt;VALUE&gt;Version&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY.ARRAY NAME="BiosCharacteristics" TYPE="uint16"&gt;&lt;QUALIFIER NAME="MappingStrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;SMBIOS|Type 0|BIOS Characteristics&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY.ARRAY&gt;&lt;PROPERTY.ARRAY NAME="BIOSVersion" TYPE="string"&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY.ARRAY&gt;&lt;PROPERTY NAME="CurrentLanguage" TYPE="string"&gt;&lt;QUALIFIER NAME="MappingStrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;SMBIOS|Type 13|Current Language&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="EmbeddedControllerMajorVersion" TYPE="uint8"&gt;&lt;QUALIFIER NAME="MappingStrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;SMBIOS|Type 0|Embedded Controller Firmware Major Release&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="EmbeddedControllerMinorVersion" TYPE="uint8"&gt;&lt;QUALIFIER NAME="MappingStrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;SMBIOS|Type 0|Embedded Controller Firmware Minor Release&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="InstallableLanguages" TYPE="uint16"&gt;&lt;QUALIFIER NAME="MappingStrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;SMBIOS|Type 13|Installable Languages&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY.ARRAY NAME="ListOfLanguages" TYPE="string"&gt;&lt;QUALIFIER NAME="MappingStrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;SMBIOS|Type 13|Language Strings&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY.ARRAY&gt;&lt;PROPERTY NAME="ReleaseDate" TYPE="datetime"&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="SMBIOSBIOSVersion" TYPE="string"&gt;&lt;QUALIFIER NAME="MappingStrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;SMBIOS|Type 0|BIOS Version&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="SMBIOSMajorVersion" TYPE="uint16"&gt;&lt;QUALIFIER NAME="MappingStrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;SMBIOS|CSMBios|GetVersion&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="SMBIOSMinorVersion" TYPE="uint16"&gt;&lt;QUALIFIER NAME="MappingStrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;SMBIOS|CSMBios|GetVersion&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="SMBIOSPresent" TYPE="boolean"&gt;&lt;QUALIFIER NAME="MappingStrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;SMBIOS|CSMBios|Init&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="SystemBiosMajorVersion" TYPE="uint8"&gt;&lt;QUALIFIER NAME="MappingStrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;SMBIOS|Type 0|System BIOS Major Release&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;PROPERTY NAME="SystemBiosMinorVersion" TYPE="uint8"&gt;&lt;QUALIFIER NAME="MappingStrings" TYPE="string"&gt;&lt;VALUE.ARRAY&gt;&lt;VALUE&gt;SMBIOS|Type 0|System BIOS Minor Release&lt;/VALUE&gt;&lt;/VALUE.ARRAY&gt;&lt;/QUALIFIER&gt;&lt;QUALIFIER NAME="read" TYPE="boolean"&gt;&lt;VALUE&gt;true&lt;/VALUE&gt;&lt;/QUALIFIER&gt;&lt;/PROPERTY&gt;&lt;/CLASS&gt;</S>
+            </MS>
+          </Obj>
+        </LST>
+      </Obj>
+    </MS>
+  </Obj>
+</Objs>

@@ -57,7 +57,7 @@ Describe 'Challenges' {
         }
 
         It 'Returns functions' {
-            ($SCRIPT:Challenge4Result).foreach{
+            ($Challenge4Result).foreach{
                 $PSItem.psobject.properties.name.count | Should -Be 3
                 'ParameterSetCount' | Should -Bein $PSItem.psobject.properties.name
             }
@@ -65,6 +65,27 @@ Describe 'Challenges' {
 
         It 'Should return 141 functions' {
             $challenge4result.count | Should -be 141
+        }
+    }
+
+    Context 'Challenge5' {
+        BeforeAll {
+            #Mock: Get-Childitem -Path function: | export-clixml
+            Mock -Verifiable Get-Process -ParameterFilter {$IncludeUserName -eq $true} {
+                Import-Clixml "$Mocks/processes.clixml"
+            }
+            $SCRIPT:Challenge5Result = . "$ScriptRoot/Challenge5.ps1"
+        }
+
+        It 'Has no blank users' {
+            $Challenge5Result.Name | foreach {
+                $PSItem | Should -Not -BeNullOrEmpty
+            }
+        }
+
+        It 'Has 5 SYSTEM processes' {
+            ($challenge5result | where name -eq 'NT AUTHORITY\SYSTEM').count | 
+                Should -Be 5
         }
     }
 }
