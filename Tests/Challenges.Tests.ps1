@@ -27,7 +27,7 @@ Describe 'Challenges' {
     Context 'Challenge3' {
         #Mock: get-cimclass -classname win32_bios | Export-Clixml
         BeforeAll {
-            Mock -Verifiable Get-CimClass {Import-Clixml "$Mocks/win32_bios"}
+            Mock -Verifiable Get-CimClass {Import-Clixml "$Mocks/win32_bios.clixml"}
             $SCRIPT:Challenge3Result = . "$ScriptRoot/Challenge3.ps1"
         }
         It 'Gets the properties of win32_bios' {
@@ -47,10 +47,24 @@ Describe 'Challenges' {
         }
     }
 
-    # Context 'Challenge4' {
-    #     BeforeAll {
-    #         Mock -Verifiable Get-CimClass {Import-Clixml "$Mocks/win32_bios"}
-    #         $SCRIPT:Challenge3Result = . "$ScriptRoot/Challenge3.ps1"
-    #     }
-    # }
+    Context 'Challenge4' {
+        BeforeAll {
+            #Mock: Get-Childitem -Path function: | export-clixml
+            Mock -Verifiable Get-ChildItem -ParameterFilter {$Path -eq 'function:'} {
+                Import-Clixml "$Mocks/functions.clixml"
+            }
+            $SCRIPT:Challenge4Result = . "$ScriptRoot/Challenge4.ps1"
+        }
+
+        It 'Returns functions' {
+            ($SCRIPT:Challenge4Result).foreach{
+                $PSItem.psobject.properties.name.count | Should -Be 3
+                'ParameterSetCount' | Should -Bein $PSItem.psobject.properties.name
+            }
+        }
+
+        It 'Should return 141 functions' {
+            $challenge4result.count | Should -be 141
+        }
+    }
 }
